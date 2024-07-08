@@ -12,22 +12,22 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "question": {
-      "type": "text"
-    },
-    "option_1": {
+    "option1": {
       "type": "string"
     },
-    "option_2": {
+    "option2": {
       "type": "string"
     },
-    "option_3": {
+    "option3": {
       "type": "string"
     },
-    "option_4": {
+    "option4": {
       "type": "string"
     },
     "answer": {
+      "type": "text"
+    },
+    "q": {
       "type": "text"
     }
   }
