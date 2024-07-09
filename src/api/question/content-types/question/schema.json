@@ -29,6 +29,18 @@
     },
     "q": {
       "type": "text"
+    },
+    "level": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::level.level",
+      "inversedBy": "questions"
+    },
+    "subtopic": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::subtopic.subtopic",
+      "inversedBy": "questions"
     }
   }
 }
