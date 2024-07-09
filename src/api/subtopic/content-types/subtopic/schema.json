@@ -4,7 +4,8 @@
   "info": {
     "singularName": "subtopic",
     "pluralName": "subtopics",
-    "displayName": "Subtopic"
+    "displayName": "Subtopic",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

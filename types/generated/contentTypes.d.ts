@@ -794,6 +794,7 @@ export interface ApiLevelLevel extends Schema.CollectionType {
     singularName: 'level';
     pluralName: 'levels';
     displayName: 'Level';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -875,6 +876,7 @@ export interface ApiSubtopicSubtopic extends Schema.CollectionType {
     singularName: 'subtopic';
     pluralName: 'subtopics';
     displayName: 'Subtopic';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -915,6 +917,7 @@ export interface ApiTopicTopic extends Schema.CollectionType {
     singularName: 'topic';
     pluralName: 'topics';
     displayName: 'topic';
+    description: '';
   };
   options: {
     draftAndPublish: true;
